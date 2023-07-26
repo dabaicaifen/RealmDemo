@@ -17,8 +17,6 @@
 		AA85432F2A70C2470061C8DB /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85432E2A70C2470061C8DB /* Test.swift */; };
 		AA8543322A70C2720061C8DB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AA8543312A70C2720061C8DB /* Realm */; };
 		AA8543342A70C2720061C8DB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AA8543332A70C2720061C8DB /* RealmSwift */; };
-		AA96775D2A714EBE00A6F61B /* Second.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA96775C2A714EBE00A6F61B /* Second.framework */; };
-		AA96775E2A714EBE00A6F61B /* Second.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA96775C2A714EBE00A6F61B /* Second.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +35,6 @@
 			remoteInfo = First;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AA96775F2A714EBE00A6F61B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AA96775E2A714EBE00A6F61B /* Second.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA8542D92A70C15D0061C8DB /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8543342A70C2720061C8DB /* RealmSwift in Frameworks */,
-				AA96775D2A714EBE00A6F61B /* Second.framework in Frameworks */,
 				AA8543322A70C2720061C8DB /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,7 +162,6 @@
 				AA8542D52A70C15D0061C8DB /* Sources */,
 				AA8542D62A70C15D0061C8DB /* Frameworks */,
 				AA8542D72A70C15D0061C8DB /* Resources */,
-				AA96775F2A714EBE00A6F61B /* Embed Frameworks */,
 				AA96775A2A714EAE00A6F61B /* ShellScript */,
 			);
 			buildRules = (
